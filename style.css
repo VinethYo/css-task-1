@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-color:#2d3e50;
+    height: 70px;
+    width: 100%;
+    /* position: fixed; */
+}
+h3{
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.header a{
+    text-decoration: none;
+    padding-right: 10px;
+    position: relative;
+    top:25px;
+    float: right;
+    color: turquoise;
+}
+.header a:hover{
+    color: yellow;
+}
+.scroll{
+    height: 85%;
+    width: 100%;
+    
+    background-color:cornflowerblue;
+   
+}
+ .scroll h3 {
+    
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+    top: 33%;
+    width: 100%;
+    text-align: center;
+    left: 3%;
+}
+.border{
+    border: 3px solid white;
+    color: white;
+    height: 150px;
+    width: 500px;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    width: 35%;
+    text-align: center;
+}
+.scroll p{
+    position: absolute;
+    top: 73%;
+    left:100px;
+    width: 90%;
+    text-align: center;
+    color: white;
+}
+.scroll a{
+    position: absolute;
+    top: 78%;
+    left:620px;
+    width: 150px;
+    right: 700px;
+background-color: white;
+text-align: center;
+text-decoration: none;
+border: 10px solid white;
+border-radius: 5px;
+font-size: 15px;
+}
+
+
+
+
+
+
+.container{
+
+    height:35%;
+    width: 100%;
+    position: fixed;
+}
+.container h4{
+    margin-top: 25px;
+    margin-left: 500px;
+   
+}
+.para{
+    padding: 20px;
+    height: 30%;
+    width: 20%;
+    float: left;
+    font-size: 20px;
+}
+.container i {
+    color: blue;
+}
+.container p{
+    color: grey;
+}
+
+
+
+
+
+.noob{
+    height: 55%;
+    width: 100%;
+    background-color: #2d3e50;
+    float: left;
+    position: sticky;
+}
+.noob img{
+    height: 100%;
+    width: 25%;
+    margin-left: 100px;
+    
+}
+.noob div{
+    margin-left: 500px;
+    margin-top: -250px;
+    text-overflow: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+.last{
+height:820px;
+width: 100%;
+}
+.last h2{
+    text-align: center;
+    margin-top: -20px;
+    
+}
+.last script{
+
+    margin-left: 20px;
+}
+.last input[type=text], input[type=password] {
+    width: 40%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border:1px solid wheat;
+    background: #f1f1f1;
+  }
+.no
+{
+    margin-left: 50px;
+}
+.button{
+    background-color: skyblue;
+    color: white;
+    width: 15%;
+    height: 50px;
+    border: 3px solid  skyblue;
+    border-radius: 10px;
+}
+.aa{
+    margin-left: 650px;
+    margin-top: -250px;
+    text-overflow: none;
+    font-size: 20px;
+    
+}
+.footer{
+    position: fixed;
+    background-color:#2d3e50;
+    height: 10%;
+    width: 100%;
+    bottom: 0;
+
+}
+.footer p{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    
+}
